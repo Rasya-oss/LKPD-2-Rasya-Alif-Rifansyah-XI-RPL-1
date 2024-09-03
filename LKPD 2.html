@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FFA500;
+
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  
+}
+ /* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:gray;
+  padding: 20px;
+}
+th{
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+  text-align:left;
+ 
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+ /* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #FFA500;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+ </style>
+</head>
+<body>
+
+<header>
+  <h2>BASKET</h2>
+</header>
+
+<section>
+  <nav>
+    <ol>
+      <a href="ygg">ffg</a>
+      <a href="pji">drd</a>
+      <a href="rtl">gg</a>
+    </ol>
+  </nav>
+  
+  
+  <article>
+    <h1>Pengertian Basket</h1>
+    <p>Bola basket menjadi salah satu olahraga yang paling digemari oleh penduduk Amerika Serikat dan penduduk di belahan bumi lainnya, antara lain di Amerika Selatan, Eropa Selatan, Lithuania, dan juga di Indonesia. Banyak kompetisi bola basket yang diselenggarakan setiap tahun, seperti British Basketball League (BBL) di Inggris, National Basketball Association (NBA) di Amerika, dan Indonesia Basketball League (IBL) di Indonesia.
+    <p>
+    Bola basket merupakan salah satu cabang olahraga yang menuntut VO2 max tinggi. Dengan latihan VO2 max ini dapat ditingkatkan yang menghasilkan peningkatan hanya berkisar 25% dari kondisi awal latihan. Dari latihan tersebut elebihnya ditentukan oleh potensi fisik yang ada pada setiap individu.[butuh sumber yang lebih baik] Bola basket merupakan cabang olahraga dengan waktu istirahat yang lebih lama, sehingga dapat memanfaatkan teknik recovery dengan tepat</p>
+    <p>Berikut beberapa informasi dari pemain basket:</p>
+    
+    
+     
+   <table style="width:100%" border="1">
+  <tr>
+    <th>Nama</th>
+    <th>Usia</th>
+    <th>Tinggi badan</th>
+  </tr>
+  <tr>
+    <td>Stephen Curry</td>
+    <td>36</td>
+    <td>1,88</td>
+  </tr>
+  <tr>
+    <td>LeBron James</td>
+    <td>39</td>
+    <td>2,06</td>
+  </tr>
+</table>
+    
+    
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+ 
